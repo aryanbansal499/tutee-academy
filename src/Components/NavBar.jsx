@@ -10,7 +10,7 @@ const Navbar = () =>
             <div className = 'row'>
                 <div className = "col-12 mx-auto">
                 
-                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
                         <div className="container-fluid">
                             <a className="navbar-brand" href="#">Tutee Academy</a>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@ const Navbar = () =>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                                        Courses
+                                        Computer Science Courses
                                     </a>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a className="dropdown-item" href="#">Action</a></li>
