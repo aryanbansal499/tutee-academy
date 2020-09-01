@@ -1,10 +1,11 @@
 import React from 'react';
+import Carousel from './Carousel';
 
 const Home = () => 
 {
     return(
         <>
-        <h1></h1>
+            <Carousel/>
         </>
     );
 };

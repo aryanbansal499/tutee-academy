@@ -1,6 +1,14 @@
+
+
+/*Navbar css components */
 .navbar
 {
-  background-color: #eeeeee !important;
+  background-color: #515070  !important;
+}
+
+.container-fluid
+{
+  background-color: #515070  !important;
 }
 
 .navbar-brand
@@ -10,7 +18,6 @@
   font-size: 1.8rem;
   
 }
-
 .navbar a 
 {
     font-size: 1.1rem;
@@ -18,9 +25,65 @@
     color: #ff9c71 !important;
     
 }
-
-
 .navbar a:hover
 {
     color: #393e46 !important;
+}
+.dropdown:hover>.basic {
+  display: block;
+}
+
+
+
+/* Carousel css components */
+.carousel-item
+{
+  height: 30rem;
+  width: 100rem;
+  background: transparent;
+  position: relative;
+  color: white;
+  background-position: center;
+}
+
+  .carousel-item>img{
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  line-height: 1;
+  margin:auto;
+  width: 100%; 
+  }
+
+.container{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.black-overlay
+{
+  text-align:center;
+  position: absolute;position: absolute;
+  top: 0px;
+  left:0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.4)
+}
+
+.carousel-caption
+{
+  background: transparent;
+  text-align: center;
+  position: absolute;
+  right : 300px;
+  top: 150px;
+}
+
+.carousel-caption>h3
+{
+  color: #eae8eba6 !important;;
 }
