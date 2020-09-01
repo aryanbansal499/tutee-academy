@@ -1,4 +1,5 @@
 import React from 'react';
+import CallButton from './contact-button';
 
 
 const Carousel = () =>
@@ -12,6 +13,7 @@ return(
 
 <>
 
+
 <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
@@ -22,7 +24,9 @@ return(
    
     <div className="carousel-item active">
       <img src={require("./tuteebanner.jpg")}  alt="..."/>
-      <div className = "black-overlay"></div>
+      <div className = "black-overlay">
+      
+      </div>
       <div class="carousel-caption">
             <h3>We help students gain admission to the colleges of their dreams 
               by offering exceptional teaching, regular counseling, and proven curriculum.

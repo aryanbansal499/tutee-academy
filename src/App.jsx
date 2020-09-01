@@ -14,29 +14,38 @@ import Consulting from './Components/Consulting.jsx';
 import Careers from './Components/Careers.jsx';
 import Credit from './Components/Credit-Courses.jsx';
 import Test from './Components/Test-Prep.jsx';
+import CallButton from './Components/contact-button.jsx';
+import Footer from './Components/Footer.jsx';
 
 const App =() => {
     return (
         <>
-           
-            <Navbar/>
-           
-        
+            
+            <div className = "page-container">
+                <div className = "content-wrap">
+                    <Navbar/>
            
             
-            <Switch>
-                <Route exact path = "/" component = {Home}/>
-                <Route exact path = "/about" component = {About}/>
-                <Route exact path = "/consulting" component = {Consulting}/>
-                <Route exact path = "/contact" component = {Contact}/>
-                <Route exact path = "/careers" component = {Careers}/>
-                <Route exact path = "/credit" component = {Credit}/> 
-                <Route exact path = "/testprep" component = {Test}/>
-                <Route exact path = "/cs" component = {Course}/>
-                <Redirect to = "/"/>  
+                        <Switch>
+                            <Route exact path = "/" component = {Home}/>
+                            <Route exact path = "/about" component = {About}/>
+                            <Route exact path = "/consulting" component = {Consulting}/>
+                            <Route exact path = "/contact" component = {Contact}/>
+                            <Route exact path = "/careers" component = {Careers}/>
+                            <Route exact path = "/credit" component = {Credit}/> 
+                            <Route exact path = "/testprep" component = {Test}/>
+                            <Route exact path = "/cs" component = {Course}/>
+                            <Redirect to = "/"/>  
 
-            </Switch>
-    
+                        </Switch>
+
+                    <Footer/>
+
+                </div>
+            </div>
+            
+           
+           
         </>
     );
 };
